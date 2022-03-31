@@ -11,11 +11,11 @@ def setup_robogym():
             # Fixed versions
             "click==7.0",
             "collision==1.2.2",
-            "gym==0.15.3",
+            "gym==0.21.0",
             "kociemba==1.2.1",
-            "mujoco-py==2.0.2.13",
+            "mujoco-py<2.2,>=2.1",
             "pycuber==0.2.2",
-            "matplotlib==3.1.2",
+            "matplotlib==3.5.1",
             "transforms3d==0.3.1",
             # Minimum versions
             "jsonnet>=0.14.0",
